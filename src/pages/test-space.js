@@ -2,11 +2,11 @@ import { Link } from "gatsby";
 import React from "react";
 
 
-// markup
-const IndexPage = () => {
+function TestSpacePage() {
   return (
-    <main>
-      <title>Home Page??!</title>
+    <main> 
+      <title>자기소개</title>
+
 
       <div style={{display:"flex", gap: 20}}>
         <Link to="/">홈</Link>
@@ -15,11 +15,10 @@ const IndexPage = () => {
         <Link to="/test-test">테스트-스페이스</Link>
       </div>
 
-
-
-      <h1>home page!!!</h1>
+      <h1>테스트 스페이스 페이지 입니다.</h1>
     </main>
   );
-};
+}
 
-export default IndexPage
+
+export default TestSpacePage;
