@@ -12,6 +12,9 @@ function AboutPage() {
 
         <h1>테스트 페이지 입니다.</h1>
       </Layout>
+      <p>
+        Hi there! I'm the proud creator of this site, which I built with Gatsby.
+      </p>
     </main>
   );
 }

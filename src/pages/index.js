@@ -7,15 +7,16 @@ import Layout from "../components/layout";
 // markup
 const IndexPage = () => {
   return (
-    <main>
-      <Layout>
-        <title>Home Page??!</title>
+    <Layout>
+      <title>홈</title>
 
-
-        <h1>home page!!!</h1>
+      <h1>홈 페이지</h1>
+      <Layout pageTitle="Home Page">
+        <p>I'm making this by following the Gatsby Tutorial.</p>
       </Layout>
-    </main>
+
+    </Layout>
   );
 };
 
-export default IndexPage
+export default IndexPage;
